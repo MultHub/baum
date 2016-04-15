@@ -25,7 +25,7 @@ $pageDesc  = "..."; // optional, only used in &lt;meta&gt;
 function pagebody() { ?&gt;
 ... HTML here ...
 &lt;?php } ?&gt;
-</pre><h2>Link bar</h2><pre>
+</pre><h2>Link bar (links.php)</h2><pre>
 &lt;?php
 linkbtn("pagename", "display name");
 // ...
