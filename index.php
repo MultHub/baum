@@ -1,4 +1,4 @@
-<?php $baumVersion = "3.14159";
+<?php $baumVersion = "3.141592";
 if(!file_exists("config.php")) {
 	$baumTitle = "Unconfigured";
 	$baumDescription = "";

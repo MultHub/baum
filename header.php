@@ -25,7 +25,8 @@ if (!isset($pageDesc)) {
 		<div id="content">
 <?php }
 
-function sitefooter() { ?>
+function sitefooter() {
+	global $baumVersion; ?>
 		</div>
 		<div id="footer">
 			BAUM <?php echo $baumVersion; ?>
