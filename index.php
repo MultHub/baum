@@ -38,7 +38,7 @@ linkbtn("pagename", "display name");
 		function pagebody() {
 			global $pageTitle;
 			global $pageDesc;
-			echo "<h1 align=\"center\">$pageTitle;</h1><h2 align=\"center\">$pageDesc;</h2>";
+			echo "<h1 align=\"center\">$pageTitle</h1><h2 align=\"center\">$pageDesc</h2>";
 		}
 	} else include "404.php";
 } else {
